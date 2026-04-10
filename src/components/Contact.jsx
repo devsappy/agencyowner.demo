@@ -8,19 +8,19 @@ export default function Contact() {
         {/* CTA Banner */}
         <div className="contact__cta-banner">
           <div>
-            <p className="contact__cta-label">Get Started Today!</p>
+            <p className="contact__cta-label">Let's Build Something Smart</p>
             <h2 className="contact__cta-title">
-              Transform your mindset,<br />achieve your dreams.
+              Ready to grow faster<br />with AI-powered marketing?
             </h2>
-            <p className="contact__cta-sub">Rise to greatness with Mind Mentor Institute.</p>
+            <p className="contact__cta-sub">Book a free strategy session with Nathan AI.</p>
           </div>
           <div className="contact__cta-buttons">
-            <a href="https://wa.me/918910545280" target="_blank" rel="noopener noreferrer" className="btn-dark">
-              Click here to join us
+            <a href="#contact" className="btn-dark">
+              Book a Strategy Call
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
             </a>
-            <a href="https://wa.me/918910545280" target="_blank" rel="noopener noreferrer" className="btn-dark-outline">
-              Click here to pay
+            <a href="mailto:hello@nathanai.com" className="btn-dark-outline">
+              Email Us
             </a>
           </div>
         </div>
@@ -36,12 +36,12 @@ export default function Contact() {
                 <circle cx="12" cy="10" r="3" />
               </svg>
             </div>
-            <h4 className="contact-card__title">Visit Us</h4>
+            <h4 className="contact-card__title">Headquarters</h4>
             <p className="contact-card__text">
-              Mind Mentor Institute, ARPANAM<br />
-              30, Jatin Das Road, Ichapur, Debitala<br />
-              <span style={{ color: 'rgba(255,255,255,0.32)' }}>Landmark: Kalyani Medical, Narikel Bagan</span><br />
-              Kolkata, West Bengal — 743144
+              Nathan AI<br />
+              Kolkata, West Bengal<br />
+              <span style={{ color: 'rgba(255,255,255,0.8)' }}>Serving clients globally</span><br />
+              India
             </p>
           </div>
 
@@ -52,13 +52,11 @@ export default function Contact() {
                 <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.1a19.79 19.79 0 01-3-8.57A2 2 0 012.03 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 9.91a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
               </svg>
             </div>
-            <h4 className="contact-card__title">Dial or WhatsApp</h4>
+            <h4 className="contact-card__title">Call or WhatsApp</h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              {['8910545280', '9883261050', '9830467038'].map((num) => (
-                <a key={num} href={`tel:+91${num}`} className="contact-card__link">
-                  +91 {num}
-                </a>
-              ))}
+              <a href="tel:+918910545280" className="contact-card__link">
+                +91 8910545280
+              </a>
             </div>
           </div>
 
@@ -71,13 +69,13 @@ export default function Contact() {
               </svg>
             </div>
             <h4 className="contact-card__title">Email Us</h4>
-            <a href="mailto:dasasishkumar45@gmail.com" className="contact-card__link" style={{ wordBreak: 'break-all' }}>
-              dasasishkumar45@gmail.com
+            <a href="mailto:hello@nathanai.com" className="contact-card__link" style={{ wordBreak: 'break-all' }}>
+              hello@nathanai.com
             </a>
             <hr className="contact-card__divider" />
-            <p style={{ fontSize: '10px', color: 'rgba(255,255,255,0.3)', letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: '10px' }}>Explore</p>
+            <p style={{ fontSize: '10px', color: 'rgba(255,255,255,0.8)', letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: '10px' }}>Services</p>
             <div className="tags">
-              {['Education', 'Career', 'Fitness', 'Learning Techniques'].map((t) => (
+              {['AI Strategy', 'SEO & GEO', 'Paid Media', 'Content'].map((t) => (
                 <span key={t} className="tag">{t}</span>
               ))}
             </div>

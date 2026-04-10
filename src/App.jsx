@@ -1,8 +1,9 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Awards from './components/Awards';
+import Courses from './components/Courses';
 import About from './components/About';
+import VisionHero from './components/VisionHero';
 import Vision from './components/Vision';
 import Services from './components/Services';
 import Contact from './components/Contact';
@@ -14,8 +15,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Awards />
+      <Courses />
       <About />
+      <VisionHero />
       <Vision />
       <Services />
       <Contact />
