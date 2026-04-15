@@ -15,12 +15,12 @@ export default function Navbar() {
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`}>
       <div className="navbar__logo">
         <div className="navbar__logo-badge">N</div>
-        <span className="navbar__logo-name" style={{ fontSize: '1.5rem', lineHeight: 1.1 }}>
+        <span className="navbar__logo-name">
           Nathan AI
         </span>
       </div>
 
-      <ul className="navbar__links" style={{ display: 'flex' }}>
+      <ul className="navbar__links">
         {links.map((link, i) => (
           <li key={link}>
             <a
